@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+<a href="{{ route('articles.create') }}">создать статью</a>
 @section('content')
     <h1>Список статей</h1>
     @foreach ($articles as $article)
